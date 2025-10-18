@@ -1,9 +1,8 @@
 window.addEventListener("load", () => {
   const audio = document.getElementById("music")
+  const theme = document.body.classList[0]
   const music =
-    document.body.classList[0] === "light-theme"
-      ? "normal-world.mpeg"
-      : "inverted-world.mpeg"
+    theme === "light-theme" ? "normal-world.mpeg" : "inverted-world.mpeg"
 
   audio.play()
   audio.volume = 0.2
