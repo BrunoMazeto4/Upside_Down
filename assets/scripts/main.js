@@ -3,11 +3,13 @@ function switchTheme() {
   document.body.classList.toggle("light-theme")
 }
 
-const theme = document.body.classList[0]
-const audio = document.getElementById("music")
-const music =
-  theme === "light-theme" ? "normal-world.mpeg" : "inverted-world.mpeg"
+window.addEventListener("load", () => {
+  const theme = document.body.classList[0]
+  const audio = document.getElementById("music")
+  const music =
+    theme === "light-theme" ? "normal-world.mpeg" : "inverted-world.mpeg"
 
-audio.src = `assets/musics/${music}`
-audio.play()
-audio.volume = 0.2
+  audio.src = `assets/musics/${music}`
+  audio.play()
+  audio.volume = 0.2
+})
