@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
   const audio = document.getElementById("music")
   const theme = document.body.classList[0]
   const music =
