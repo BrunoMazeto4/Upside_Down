@@ -5,8 +5,8 @@
 Projeto desenvolvido na Semana Front-End da DIO, no qual foi realizado um desafio para desenvolver uma página
 utilizando conceitos de HTML, CSS e JavaScript, com o tema Upside Down (Mundo Invertido) da série Stranger Things
 
-<img src="./assets/images/final/image1.png" alt="Imagem final do projeto Upside Down (Mundo Invertido)" />
-<img src="./assets/images/final/image2.png" alt="Imagem final do projeto Upside Down (Mundo Invertido)"/>
+<img src="./assets/images/final/image1.png" alt="Imagem final do projeto Upside Down" />
+<img src="./assets/images/final/image2.png" alt="Imagem final do projeto Upside Down"/>
 
 ## Tecnologias Utilizadas 💻
 
